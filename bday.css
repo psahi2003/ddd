@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background: #5b8f5c;
+    cursor: crosshair;
+    overflow: auto;
+  }
+  
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #FF2D95;
+}
+container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2em;
+    margin-top: 20vh;
+}
+
+  h1{
+    
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    top: 50%;
+    left:50%;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 3px 0px rgba(206,89,55,0);
+    font-size:5em;
+    animation: fadeIn 5s ease-in-out;
+    
+  }
+  
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the fadeIn animation to images */
+.background-images img {
+    width: 300px; /* Adjust image width as needed */
+    height: 300px; /* Adjust image height as needed */
+    margin: 0 30px;
+    border-radius:100%;
+    animation: fadeIn 5s ease-in-out;
+}
+#birthday-video {
+    width: 50%; /* Set the width of the video frame */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-width: 200px;
+    max-height: 400px; /* Maximum width of the video frame */
+    margin-top: 70px; /* Adjust margin as needed */
+  
+    border-radius: 50%;
+    animation: fadeIn 5s ease-in-out;
+}
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    margin-top: 50px;
+    color: azure;
+    position: relative; /* Make sure the container is positioned relatively */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.video-container {
+    display: flex;
+    gap: 20px; /* Change this value to adjust the gap between elements */
+}
+
+/* Optionally, you can style the video element to control its size */
+#birthday-video {
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
+}
+.video-container p{
+    font-family: Georgia, serif;
+font-size: 27px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #60e30f;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+color: #FFFFFF;
+
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+animation: fadeIn 5s ease-in-out;
+}
+.vd1 p{
+    font-family: Georgia, serif;
+font-size: 27px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #60e30f;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+color: #FFFFFF;
+
+color: #FFFFFF;
+
+text-shadow: 3px 5px 2px #474747;
+animation: fadeIn 5s ease-in-out;
+}
+#birthday-video1{
+    width: 50%; /* Set the width of the video frame */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-width: 250px;
+    max-height: 400px; /* Maximum width of the video frame */
+    margin-top: 70px; /* Adjust margin as needed */
+  
+    border-radius: 30%;
+    animation: fadeIn 5s ease-in-out;
+}
